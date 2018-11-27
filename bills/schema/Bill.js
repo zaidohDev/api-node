@@ -9,6 +9,10 @@ const Bill = new mongoose.Schema({
         type: Number,
         require: true
     },
+    status: {
+        type: Boolean,
+        require: true
+    },
     date: {
        type: Date,
        default: Date.now 
